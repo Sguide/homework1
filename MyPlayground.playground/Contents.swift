@@ -81,7 +81,7 @@ for Number in 1...100{
         continue
     }
     print("จำนวนเฉพาะตั้งแต่ 1-100 :",Number)
-}*/
+}
 print("ข้อ 6.1")
 var Star = ""
 for collum in 1...4{
@@ -92,5 +92,19 @@ for collum in 1...4{
         Star = Star+"*"
     }
     print(Star)
+}*/
+print("ข้อ 7")
+var Score : Double = 65
+print("Score :",Score)
+switch (Score)
+{
+case 80...100 : print("Grade :A")
+case 75...79 : print("Grade : B+")
+case 70...74 : print("Grade : B")
+case 65...69 : print("Grade : C+")
+case 60...64 : print("Grade : C")
+case 55...59 : print("Grade : D+")
+case 50...54 : print("Grade : D")
+case 0...50 : print("Grade : F")
+default : print("Error,score isn't corrected")
 }
-
