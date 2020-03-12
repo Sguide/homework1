@@ -68,11 +68,17 @@ else if(Number%2 != 0){
         print("Can't divide 2 and 6")
     }
 }
-print("ข้อ 4")
+/*print("ข้อ 4")
 print("สูตรคูณแม่ 1-12")
 for No in 1...12{
     for Number in 1...12{
         print("ผลคูณแม่ 1-12 :",No*Number)
     }
+}*/
+print("ข้อ 5")
+for Number in 1...1000{
+    if((Number==1 || Number%2==0 || Number%3==0 || Number%5==0 || Number%7==0) && (Number != 2 && Number != 3 && Number != 5 && Number != 7)){
+        continue
+    }
+    print("จำนวนเฉพาะตั้งแต่ 1-100 :",Number)
 }
-
