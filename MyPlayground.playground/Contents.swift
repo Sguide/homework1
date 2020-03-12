@@ -1,7 +1,7 @@
 import UIKit
 
 var str = "Hello, playground"
-print("ข้อ 1")
+/*print("ข้อ 1")
 var InputNumber1 : Double = 5
 var InputNumber2 : Double = 4
 var Summary = (InputNumber1+InputNumber2)
@@ -68,17 +68,29 @@ else if(Number%2 != 0){
         print("Can't divide 2 and 6")
     }
 }
-/*print("ข้อ 4")
+print("ข้อ 4")
 print("สูตรคูณแม่ 1-12")
 for No in 1...12{
     for Number in 1...12{
         print("ผลคูณแม่ 1-12 :",No*Number)
     }
-}*/
+}
 print("ข้อ 5")
-for Number in 1...1000{
+for Number in 1...100{
     if((Number==1 || Number%2==0 || Number%3==0 || Number%5==0 || Number%7==0) && (Number != 2 && Number != 3 && Number != 5 && Number != 7)){
         continue
     }
     print("จำนวนเฉพาะตั้งแต่ 1-100 :",Number)
+}*/
+print("ข้อ 6.1")
+var Star = ""
+for collum in 1...4{
+    for _ in 1...collum{
+        Star = Star+""
+    }
+    for _ in 1...1{
+        Star = Star+"*"
+    }
+    print(Star)
 }
+
